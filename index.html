@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal desktop utility for synchronizing selected local folders with the owner’s Google Drive.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Soltan Local Sync</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="shell">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">S</span>Soltan Local Sync</a>
+    <nav aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </header>
+  <main id="main">
+    <div class="intro"><p class="eyebrow">Personal desktop utility</p>
+      <h1>Soltan Local Sync</h1><p class="lead">Keep selected folders on a Windows computer and in Google Drive synchronized.</p>
+      <p class="date">Last updated 2 November 2026</p>
+    </div>
+    <div class="document">
+<section aria-labelledby="purpose"><h2 id="purpose">What the application does</h2>
+<p>Soltan Local Sync is a personal utility operated by Soltan Baghirli. It uses rclone on the owner’s computer to copy and synchronize files with the owner’s Google Drive account.</p>
+<p>The current setup synchronizes selected folders in both directions, keeps backup copies of replaced files, and preserves separate versions when conflicting changes are detected. Depending on the configuration, changes can include uploads, downloads, updates, renames and deletions.</p></section>
+<section aria-labelledby="access"><h2 id="access">Why Google Drive access is needed</h2>
+<p>The utility needs to read file contents and metadata and to create, update, organize and delete files to perform synchronization. The Google authorization can cover the entire Drive account; the folders actually synchronized are determined by the local configuration.</p>
+<p>The owner authorizes access through Google’s sign-in and consent flow. This website is an information page; it does not provide a sign-in form or access to Drive files.</p></section>
+<section aria-labelledby="control"><h2 id="control">Personal use and control</h2>
+<p>The application is intended for the operator’s own account and is not offered as a public file-storage service. The operator controls when it runs, which folders it synchronizes and when access is revoked.</p>
+<p>Read the <a href="privacy.html">Privacy Policy</a> for details on data access, storage, backups and separately authorized integrations, or the <a href="terms.html">Terms of Use</a> for the intended scope of this utility.</p></section>
+</div>
+    <aside class="contact" aria-label="Operator contact"><p class="eyebrow">Operator &amp; contact</p>
+      <p><strong>Soltan Baghirli</strong><br><a href="mailto:soltan.baghirli.pt@gmail.com">soltan.baghirli.pt@gmail.com</a></p>
+    </aside>
+  </main>
+  <footer><span>Soltan Local Sync · Personal use</span><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></footer>
+</div>
+</body>
+</html>
